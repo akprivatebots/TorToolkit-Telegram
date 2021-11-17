@@ -12,10 +12,12 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
+    "IS_VPS":{
+      "description": "Set true if it's VPS",
+      "value": "False"
     },
+
+
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
