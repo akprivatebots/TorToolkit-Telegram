@@ -71,7 +71,7 @@ class DataBaseHandle:
         """
         if self._block:
             return
-        self._connection_users.pop()
+        self._connection_users.pop(0)
         
         if not self._connection_users:
             self._conn.close()
