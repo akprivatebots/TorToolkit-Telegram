@@ -12,36 +12,45 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "IS_VPS":{
+    "IS_VPS": {
       "description": "Set true if it's VPS",
       "value": "False"
     },
-
-
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "TG_BOT_TOKEN": {
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
       "description": "get this value from @BotFather",
       "value": ""
     },
-    "AUTH_CHANNEL": {
-      "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
+    "BASE_URL_OF_BOT": {
+      "description": "I don't know what it is",
       "value": ""
+    },
+    "SERVPORT": {
+      "description": "Edit the server port if you want to keep it default though.",
+      "value": "80"
+    },
+    "ALD_USR": {
+      "description": "ALLOWED USERS [ids of user or supergroup] seperate by commas.",
+      "value": "[]"
     },
     "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
-      "value": ""
+      "value": "0"
     },
-    "UPLOAD_AS_DOC": {
-      "description": "True/False. If true all files will be uploaded as documents. Default is False.",
-      "required": false
+    "GD_INDEX_URL": {
+      "description": "Google Drive Index Link should include the base dir also See readme for more info.",
+      "value": "False"
     },
-    "CHUNK_SIZE": {
-      "description": "should be an integer",
-      "value": "128",
-      "required": false
+    "EDIT_SLEEP_SECS": {
+      "description": "Time to wait before edit message",
+      "value": "40"
     },
     "ARIA_TWO_STARTED_PORT": {
       "description": "should be an integer. The port on which aria2c daemon must start, and keep listening.",
